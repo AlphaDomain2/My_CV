@@ -3,37 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table{
-            border: 2px solid black;
-            border-bottom: 0;
-            border-right:0
-        }
-        th{
-            border-right: 2px solid black;
-            border-bottom: 2px solid black;
-        }
-        td{
-            border-right: 2px solid black;
-            border-bottom: 2px solid black;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet">
     <title>My CV</title>
 </head>
 <body>
-    <h3>Name              : Aniket Datta</h3>
-    <h3>DOB               : 01/08/2001</h3>
-    <h3>PG Specialization : +91 8617434736</h3>
-    <h3>Email             : dattaaniket6@gmail.com</h3>
-    <h3>Github            :
-        <a href="https://github.com/AlphaDomain2" target="_blank">AlphaDomain2</a>
-    </h3>
-    <img src="./images/myImage.jpg" height="120" width="100" alt="My image">
-    <hr>
-    <h2><i><u>Summary</u></i></h2>
+    <div class="container">
+        <div class="text">
+            <h3>Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Aniket Datta</h3>
+            <h3>DOB&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: 01/08/2001</h3>
+            <h3>PG Specialization&nbsp: MCA</h3>
+            <h3>Phone&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: +91 8617434736</h3>
+            <h3>Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+            <a href="mailto:dattaaniket6@gmail.com" target="_blank">dattaaniket6@gmail.com</a></h3>
+            <h3>Github&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+            <a href="https://github.com/AlphaDomain2" target="_blank">AlphaDomain2</a>
+            </h3>
+        </div>
+        <div class="image">
+            <img src="./images/myImage.jpg" 
+            height="200" width="180" alt="My image">
+        </div>
+    </div>
+    <h2 class="heading"><i>Summary</i></h2>
     <p>Highly skilled and dedicated Web Developer and Java Developer creating innovative and efficient web solutions. Demonstrated expertise in designing and developing dynamic websites, web applications, and robust Java-based software. Proficient in utilizing cutting-edge technologies, frameworks, and programming languages to deliver exceptional results. Strong problem-solving abilities, a detail-oriented approach, and a passion for staying up-to-date with the latest industry trends. Committed to delivering high-quality code and exceeding client expectations. Seeking challenging opportunities to leverage my skills and contribute to the success of a forward-thinking organization.</p>
-    <hr>
-    <h2><i><u>Education</u></i></h2>
+    <h2 class="heading"><i>Education</i></h2>
     <table>
         <tr>
             <th>Year of Completion</th>
@@ -71,8 +64,7 @@
             <td>94.28%</td>
         </tr>
     </table>
-    <hr>
-    <h2><i><u>Projects</u></i></h2>
+    <h2 class="heading"><i>Projects</i></h2>
     <table>
         <tr>
             <th>Date(Month/year)</th>
@@ -85,8 +77,7 @@
             <td>Developed a windows application for travel and tourism management system using java Swing(front-end),JDBC,MySQL(back-end) for better user experience of travelling. </td>
         </tr>
     </table>
-    <hr>
-    <h2><i><u>Technical Skill Proficiency</u></i></h2>
+    <h2 class="heading"><i>Technical Skill Proficiency</i></h2>
     <table>
         <tr>
             <td>Programming Skills</td>
@@ -101,22 +92,19 @@
             <td><b>HTML,CSS,DBMS,OS,MySQL,JDBC,Javascript</b></td>
         </tr>
     </table>
-    <hr>
-    <h2><i><u>Achievments (Academic & Professional)</u></i></h2>
+    <h2 class="heading"><i>Achievments (Academic & Professional)</i></h2>
     <ul>
         <li>Wireless Charging Project - Presented @ District Project Competition - 2016</li>
         <li>Demonstration of Tesla Coil - 2019</li>
     </ul>
-    <hr>
-    <h2><i><u>Hobbies</u></i></h2>
+    <h2 class="heading"><i>Hobbies</i></h2>
     <ul>
         <li>Playing Guitar</li>
         <li>Singing</li>
         <li>Travel</li>
         <li>Football</li>
     </ul>
-    <hr>
-    <h2><i><u>Personal Details</u></i></h2>
+    <h2 class="heading"><i>Personal Details</i></h2>
     <table>
         <tr>
             <td>Gender</td>
