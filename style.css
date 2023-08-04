@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color:whitesmoke;
+}
+body{
+    padding: 3.2rem 4.8rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: end;
+    align-items: center;
+    column-gap: 4.8rem;
+    width: 100%;
+    margin-bottom: 2.4rem;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:1.2rem;
+    justify-self: start;
+}
+.name,
+.dob,
+.pg-spec,
+.phone,
+.email,
+.github{
+    display: flex;
+    gap:9.6rem;
+    justify-content: space-between;
+}
+.pg-spec{
+    gap:4.8rem;
+}
+.image{
+    width: 100%;
+    height:12rem;
+}
+a:link,
+a:visited{
+    color: rgb(0, 89, 255);
+}
+a:hover{
+    color:blueviolet;
+}
+.heading{
+    background-color: rgb(0 43 255 / 50%);
+    margin-bottom: 1.2rem;
+    font-style: normal;
+    padding: 0.2rem 1rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.06);
+}
+th{
+    width: 20%;
+    padding:1rem;
+    background-color: #e9ecef;
+}
+tr{
+    background-color: #f8f9fa;
+}
+td{
+    text-align: center;
+    padding:1rem;
+    border:0.1rem solid #e9ecef;
+    border-top: 0;
+}
+.content--margin-bottom{
+    margin-bottom: 1.2rem;
+}
+.margin-left{
+    margin-left: 1rem;
+}
+.margin-bottom{
+    margin-bottom: 1rem;
+}
+.bold{
+    font-weight: 600;
+}
+/*-----------------------*/
+/*Section Summary*/
+/*-----------------------*/
+
+.summary-content{
+    line-height: 1.8;
+}
+/*-----------------------*/
+/*Section Education*/
+/*-----------------------*/
+
+
+/*-----------------------*/
+/*Section Education*/
+/*-----------------------*/
+
+
+/*-----------------------*/
+/*Section Achievments*/
+/*-----------------------*/
+
+
+/*-----------------------*/
+/*Section Hobbies*/
+/*-----------------------*/
+
+
+/*-----------------------*/
+/*Section personal-details*/
+/*-----------------------*/
+
